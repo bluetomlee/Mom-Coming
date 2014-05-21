@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<link  type="text/css" rel="stylesheet" href="css/flat-ui.css">
+<title>妈妈再打我再打我啊</title>
+<style>
+body{
+	background-image: url(bg.jpg);
+	background-repeat: repeat;
+}
+#main {
+	display: block;
+	padding-top: 50px;
+	position: relative;
+	width: 850px;
+	overflow:hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+#text {
+	display: block;
+	position: relative;
+	width: 450px;
+	float: left;
+	margin-left: 12px;
+	border-radius: 8px;
+	box-shadow: 0 0 9px #E0CDCD;
+}
+#title {
+	display: block;
+	height: 30px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 30px;
+}
+#share {
+	display: block;
+	margin-top: 30px;
+	height: 30px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 30px;
+}
+#bdshare {
+	display: block;
+	margin: 0 auto;
+}
+div.text {
+	display: block;
+	height: 30px;
+	margin-top: 50px;
+	text-align: left;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+div.text span {
+	display: block;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	height: 30px;
+	line-height: 30px;
+	width: 130px;
+}
+div.text input {
+	display: block;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	height: 30px;
+	width: 380px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	border: solid 1px #CCC;
+}
+#generate {
+	display: block;
+	height: 50px;
+	width: 200px;
+	text-align:center;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+#show {
+	display: block;
+	width: 285px;
+	height: 730px;
+	float: right;
+	margin-right: 5px;
+	border-radius: 8px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	box-shadow: 0 0 9px #444444;
+	padding: 3px;
+}
+#link {
+	display: block;
+	position: relative;
+	text-align: left;
+	width: 850px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "微软雅黑";
+}
+#link a {
+	text-decoration: none;
+	color: #000;
+}
+#duoshuopinglun {
+	display: block;
+	position: relative;
+	text-align:center;
+	width: 850px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "微软雅黑";
+}
+#comments{
+	width: 850px;
+	margin: 0 auto;
+}
+.ds-powered-by {
+	display: none;
+}
+#footer {
+	display: block;
+	position: relative;
+	text-align:center;
+	width: 850px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "微软雅黑";
+}
+#footer a {
+	text-decoration: none;
+	color: #F5EAEA;
+}
+#footer a:hover {
+	color: #008000;
+}
+.ds-comment-body img { max-width:200px !important; }
+#ds-reset {color: #F7F0F0 !important;}
+#ds-reset .ds-highlight {color: #E7D2D0 !important;}
+#ds-thread #ds-reset .ds-sort a {color: #F3EBEB!important;}
+</style>
+</head>
+<body>
+<div id="main">
+  <div id="text" class="login-form">
+    <div id="title">妈妈再打我一次生成器</div>
+    <div id="share">
+<!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
+<a class="bds_qzone"></a>
+<a class="bds_tsina"></a>
+<a class="bds_tqq"></a>
+<a class="bds_renren"></a>
+<a class="bds_t163"></a>
+<span class="bds_more"></span>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=707462" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+    </div>
+    <div class="text"><input type="text" id="text1" name="text1" class="login-field" value="" placeholder="第一行文字" x-webkit-speech="x-webkit-speech" /></div>
+    <div class="text"><input type="text" id="text2" name="text2" class="login-field" value="" placeholder="第二行文字" x-webkit-speech="x-webkit-speech" /></div>
+    <div class="text"><input type="text" id="text3" name="text3" class="login-field" value="" placeholder="第三行文字" x-webkit-speech="x-webkit-speech" /></div>
+    <input id="generate" class="btn btn-primary btn-large btn-block" type="button" value="生成图片！" /><br /><br />
+	</div>
+  <img id="show" src="http://liyi.it/mom/draw.php" />
+</div>
+<div id="comments"><!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"mommommom"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END --></div>
+<div id="footer">By：<a href="http://www.liyi.it/" target="_blank">Bluetom</a></div>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F85f77276d5138d8e777889c223465773' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>
